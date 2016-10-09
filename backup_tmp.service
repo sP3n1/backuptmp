@@ -1,0 +1,10 @@
+[Unit]
+Description=Backup /tmp to /xxxtmp
+
+[Service]
+Type=oneshot
+RemainAfterExit=true
+ExecStop=/opt/backuptmp/backupTmp.sh
+
+[Install]
+WantedBy=multi-user.target
