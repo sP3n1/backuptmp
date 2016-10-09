@@ -1,3 +1,3 @@
 #!/bin/sh
 rm -rf /xxxtmp/*
-cp -r /tmp/* /xxxtmp/
+cp -a /tmp/. /xxxtmp/
